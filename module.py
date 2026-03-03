@@ -30,3 +30,16 @@ PERMISSIONS = [
 'field_service.delete_workorder',
 'field_service.manage_settings',
 ]
+
+ROLE_PERMISSIONS = {
+    "admin": ["*"],
+    "manager": [
+        "add_workorder",
+        "change_workorder",
+        "view_workorder",
+    ],
+    "employee": [
+        "add_workorder",
+        "view_workorder",
+    ],
+}
