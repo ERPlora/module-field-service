@@ -2,8 +2,8 @@ from django.utils.translation import gettext_lazy as _
 
 MODULE_ID = 'field_service'
 MODULE_NAME = _('Field Service')
-MODULE_VERSION = '1.0.0'
-MODULE_ICON = 'navigate-outline'
+MODULE_VERSION = '1.0.1'
+MODULE_ICON = 'material:handyman'
 MODULE_DESCRIPTION = _('Field work orders, routes and mobile technicians')
 MODULE_AUTHOR = 'ERPlora'
 MODULE_CATEGORY = 'services'
