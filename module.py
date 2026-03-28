@@ -7,6 +7,7 @@ MODULE_ICON = 'material:handyman'
 MODULE_DESCRIPTION = _('Field work orders, routes and mobile technicians')
 MODULE_AUTHOR = 'ERPlora'
 MODULE_CATEGORY = 'services'
+HAS_MODELS = True
 
 MENU = {
     'label': _('Field Service'),
